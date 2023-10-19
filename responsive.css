@@ -1,0 +1,549 @@
+@media screen and (max-width:350px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+
+    ul li{
+        padding: 0 6px;
+    }
+
+    ul li a{
+        font-size: 1rem;
+    }
+
+    .logo{
+        margin-bottom: 5px;
+    }
+    .dropbtn{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    .home{
+        padding-bottom: 1rem;
+    }
+
+    .home-content{
+        max-width: 330px;
+    }
+
+    .home-content h3{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .home-content h1{
+        font-size: 40px;
+    }
+
+    .home-content p{
+        font-size: 17px;
+    }
+
+    .home-sci a{
+        margin: 30px 10px 30px 0px;
+    }
+
+    .btn-box{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .about{
+        display: flex;
+        margin-top: 0;
+    }
+
+    .about-text h2{
+        font-size: 40px;
+    }
+
+    .about-text h4{
+        font-size: 20px;
+        margin: 12px 0 15px 0;
+    }
+
+    .about-text p{
+        line-height: 1.1;
+        font-size: 18px;
+    }
+
+    .container2{
+        padding: 40px;
+    }
+
+    .sub-title{
+        margin-top: 60px;
+        font-size: 40px;
+        padding-bottom: 4rem;
+    }
+
+    .services-list{
+        font-size: 18px;
+        line-height: 1.1;
+        grid-gap: 40px;
+    }
+
+    .services-list div{
+        font-size: 16px;
+        font-weight: 13px;
+        padding: 20px;
+    }
+
+    .services-list div h2{
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .services-list div:hover{
+        transform: scale(1.1);
+    }
+
+    .container3{
+        box-sizing: border-box;
+        width: 315px;
+        padding: 20px 15px;
+        margin-left: 30px;
+    }
+
+    .bar{
+        font-size: 23px;
+    }
+    
+    .technical-bars .bar{
+        margin-top: 20px;
+    }
+    
+    .technical-bars .bar:first-child{
+        margin-top: 0;
+    }
+    
+    .technical-bars .bar:last-child{
+        margin-bottom: 0;
+    }
+    
+    .technical-bars .bar .info{
+        margin-bottom: 5px;
+    }
+    
+    .technical-bars .bar .info span{
+        font-size: 15px;
+    }
+
+    .technical-bars .bar .progress-line{
+        width: 80%;
+    }
+
+    .heading1{
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+
+    .container4{
+        box-sizing: border-box;
+        width: 315px;
+        padding: 20px 15px;
+        margin-left: 30px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .contact-form form{
+        display: none;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        
+    }
+
+    .contact-text p{
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width:520px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+
+    ul li{
+        padding: 0 2.3vw;
+    }
+
+    ul li a{
+        font-size: 1rem;
+    }
+
+    .logo{
+        margin-bottom: 7px;
+    }
+    .dropbtn{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    .home{
+        padding-bottom: 1rem;
+    }
+
+    .home-content{
+        max-width: 90vw;
+    }
+
+    .home-content h3{
+        font-size: 35px;
+    }
+
+    .text{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .home-content h1{
+        font-size: 50px;
+    }
+
+    .home-content p{
+        font-size: 20px;
+    }
+
+    .home-sci a{
+        margin: 30px 10px 30px 0px;
+    }
+
+    .btn-box{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .about{
+        display: flex;
+        margin-top: 0;
+    }
+
+    .about-text h2{
+        font-size: 40px;
+    }
+
+    .about-text h4{
+        font-size: 23px;
+        margin: 12px 0 15px 0;
+    }
+
+    .about-text p{
+        line-height: 1.1;
+        font-size: 20px;
+    }
+
+    .container2{
+        padding: 40px;
+    }
+
+    .sub-title{
+        margin-top: 60px;
+        font-size: 40px;
+        padding-bottom: 4rem;
+    }
+
+    .services-list{
+        font-size: 20px;
+        line-height: 1.1;
+        grid-gap: 40px;
+    }
+
+    .services-list div{
+        font-size: 16px;
+        font-weight: 13px;
+        padding: 20px;
+    }
+
+    .services-list div h2{
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .services-list div:hover{
+        transform: scale(1.1);
+    }
+
+    .container3{
+        box-sizing: border-box;
+        width: 90vw;
+        padding: 20px 15px;
+        margin-left: 30px;
+    }
+
+    .bar{
+        font-size: 23px;
+    }
+    
+    .technical-bars .bar{
+        margin-top: 20px;
+    }
+    
+    .technical-bars .bar:first-child{
+        margin-top: 0;
+    }
+    
+    .technical-bars .bar:last-child{
+        margin-bottom: 0;
+    }
+    
+    .technical-bars .bar .info{
+        margin-bottom: 5px;
+    }
+    
+    .technical-bars .bar .info span{
+        font-size: 15px;
+    }
+
+    .technical-bars .bar .progress-line{
+        width: 80%;
+    }
+
+    .heading1{
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+
+    .container4{
+        box-sizing: border-box;
+        width: 90vw;
+        padding: 20px 15px;
+        margin-left: 30px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .contact-form form{
+        display: none;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        
+    }
+
+    .contact-text p{
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width:520px) and (max-width: 880px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+
+    ul li{
+        padding: 0 4vw;
+    }
+
+    ul li a{
+        font-size: 1.5rem;
+    }
+
+    .logo{
+        margin-bottom: 7px;
+        font-size: 1.8rem;
+    }
+    .dropbtn{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    .home{
+        padding-bottom: 1rem;
+    }
+
+    .home-content{
+        max-width: 90vw;
+    }
+
+    .home-content h3{
+        font-size: 40px;
+    }
+
+    .text{
+        font-size: 37px;
+        font-weight: 600;
+    }
+
+    .home-content h1{
+        font-size: 60px;
+    }
+
+    .home-content p{
+        font-size: 25px;
+    }
+
+    .home-sci a{
+        margin: 30px 10px 30px 0px;
+    }
+
+    .btn-box{
+        padding: 12px 25px;
+        font-size: 17px;
+    }
+
+    .about{
+        display: flex;
+        margin-top: 0;
+    }
+
+    .about-text h2{
+        font-size: 50px;
+    }
+
+    .about-text h4{
+        font-size: 32px;
+        margin: 12px 0 15px 0;
+    }
+
+    .about-text p{
+        line-height: 1.1;
+        font-size: 25px;
+    }
+
+    .container2{
+        padding: 40px;
+    }
+
+    .sub-title{
+        margin-top: 60px;
+        font-size: 50px;
+        padding-bottom: 4rem;
+    }
+
+    .services-list{
+        font-size: 25px;
+        line-height: 1.1;
+        grid-gap: 40px;
+    }
+
+    .services-list div{
+        font-size: 25px;
+        font-weight: 13px;
+        padding: 20px;
+    }
+
+    .services-list div h2{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .services-list div:hover{
+        transform: scale(1.1);
+    }
+
+    .services-list div a{
+        font-size: 18px;
+    }
+
+
+    .container3{
+        box-sizing: border-box;
+        width: 90vw;
+        padding: 20px 15px;
+        margin-left: 30px;
+    }
+
+    .bar{
+        font-size: 30px;
+    }
+    
+    .technical-bars .bar{
+        margin-top: 20px;
+    }
+    
+    .technical-bars .bar:first-child{
+        margin-top: 0;
+    }
+    
+    .technical-bars .bar:last-child{
+        margin-bottom: 0;
+    }
+    
+    .technical-bars .bar .info{
+        margin-bottom: 5px;
+    }
+    
+    .technical-bars .bar .info span{
+        font-size: 20px;
+    }
+
+    .technical-bars .bar .progress-line{
+        width: 80%;
+    }
+
+    .heading1{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .container4{
+        box-sizing: border-box;
+        width: 90vw;
+        padding: 20px 15px;
+        margin-left: 30px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .contact-form form{
+        display: none;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        
+    }
+
+    .contact-text p{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+    }
+}
